@@ -1,0 +1,94 @@
+.loginForm{
+    height: 100vh;
+    background-color: #24353F;
+}
+
+.w-60{
+    width: 55%;
+}
+
+.loginForm h1{
+    color: #17a2b8;
+    margin-bottom: 8px;
+}
+
+.loginForm input{
+    background: transparent;
+    padding: 6px 12px;
+    margin: 16px 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+.loginForm .login{
+    background-color: #24353F;
+    padding: 48px;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+
+.loginForm .login form a{
+    padding: 6px 12px;
+    margin: 16px 0;
+}
+
+#signUpBtn{
+    padding: 6px 12px;
+    margin: 16px 0;
+}
+
+.btn-outline-primary {
+    color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.loginForm p{
+    font-size: 18px;
+}
+
+#sucAlertSUP{
+    color: #27A045;
+}
+
+.mail {
+    color: #dc3545;
+    background-color: transparent;
+
+}
+/* home page */
+
+.homePage{
+    background-color: #24353F;
+    height: 100vh;
+}
+
+nav{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    padding: 8px 16px; 
+}
+
+nav h3{
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+nav .btn-outline-warning{
+    color: rgba(255,255,255,.5);
+    margin: 5px 0;
+}
+
+nav .btn-outline-warning:hover{
+    color: #fff;
+}
+
+.homePage .home{
+    background-color: #24353F;
+    padding: 48px;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    color: #17a2b8;
+}
+
+.he-100{
+    height: 100%;
+}
+

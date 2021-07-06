@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="loginForm pt-3">
+        <div class="container text-center pt-5 w-60">
+            <div class="login">
+                <h1>Smart Login System</h1>
+                <div class="form">
+                    <input id="nameInpSUP" type="text" name="name" placeholder="Enter your name" class="form-control">
+                    <div>
+                        <p id="nameAlert" class="d-none alert alert-danger">Please start with capital char</p>
+                    </div>
+                    <input id="emailInpSUP" type="text" name="email" placeholder="Enter your email" class="form-control">
+                    <div>
+                        <p id="emailAlertSUp" class="alert alert-danger d-none">please  enter a valid email</p>
+                    </div>
+                    <input id="passwordInpSUP" type="password" name="password" placeholder="Enter your password" class="form-control">
+                    <div>
+                        <p id="passAlertSUP" class="alert alert-danger d-none">please  enter atleast 5 numbers and atleast one capital char and atleast three small char and any symbol you want</p>
+                    </div>
+                    <div id="sucAlertSUP" class="d-none">
+                        <h4>Success</h4>
+                    </div>
+                    <div>
+                        <p id="mailExitAlert" class="alert-danger d-none mail">email already exists</p>
+                    </div>
+                    <div>
+                        <p id="fieldesRequiered" class="alert-danger d-none mail">All Fields are required</p>
+                    </div>
+                    <button id="signUpBtn" class="btn btn-outline-primary w-100">Sign Up</button>
+                </div>
+                
+                <p class="text-white">Don’t have an account? <a class="text-white" href="loginForm.html">Signin</a></p>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
